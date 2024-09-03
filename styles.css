@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/bjack-1.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 400px;
+    color: white;
+}
+
+#title {
+    color: goldenrod;
+}
+
+#display-msg {
+    font-style: italic;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #016f32;
+    width: 150px;
+    margin: auto auto;
+    padding: 10px;
+    background-color: goldenrod;
+    display: block;
+    box-shadow: 3px 3px #015225;
+}
+
+#start-btn {
+    margin-bottom: 6px;
+}
+
+#start-btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+#new-btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
